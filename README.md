@@ -13,9 +13,9 @@ A PostgreSQL-based transactional wallet system implementing ACID-compliant money
 1. Create a PostgreSQL database
 2. Run:
 
-psql Banking_manager -f Banking_manager.sql
-psql Banking_manager -f transactions(bank_manager).sql
-psql Banking_manager -f triggers(banking_manager).sql
+psql Banking_manager -f sql/Banking_manager.sql
+psql Banking_manager -f sql/transactions(bank_manager).sql
+psql Banking_manager -f sql/triggers(banking_manager).sql
 
 # What this db project demonstrates #
 This project demonstrates how real financial systems maintain consistency, integrity, and auditability at the database level.
