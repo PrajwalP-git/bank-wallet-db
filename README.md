@@ -1,5 +1,3 @@
-# bank-wallet-db #
-
 # Banking / Wallet Management System #
 
 A PostgreSQL-based transactional wallet system implementing ACID-compliant money transfers and database-level integrity enforcement.
